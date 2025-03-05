@@ -8,7 +8,6 @@ As tecnologias utilizadas para solução do desafio são:
 - Python (Bibliotecas específicas)
 - Airflow
 - Docker
-- Poetry (Apenas para desenvolvimento local em virtualenv)
 
 O pipeline criado utiliza-se do Airflow para orquestrar o processo de busca dos dados raw e trazê-los para o banco em production. Os dados são encontrados em um banco de dados PostgreSQL hospedado pela Bix Tecnologia, em um arquivo ".parquet" salvo em um google storage e em uma API fornecida pela Bix Tecnologia. O Pipeline consiste em buscar os dados de cada fonte utilizando módulos escritos em Python usando as bibliotecas necessárias e salvar cada tabela em um banco de dados PostgreSQL local em uma estrutura de Data Warehouse.
 
