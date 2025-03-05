@@ -1,3 +1,15 @@
+#logs
 *.log
+
+#pycache
 __pycache__/
-.db
+
+#airflow
+airflow.cfg
+standalone_admin_password.txt
+airflow.db
+airflow-*.pid
+webserver_config.py
+
+#env
+env/
