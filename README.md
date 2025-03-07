@@ -28,6 +28,7 @@ Requisitos para a execução do projeto:
 - Python: versão 3.9 ou acima
 - Docker Desktop
 - Postgres: versão 16 ou acima
+- WSL 2
 
 Ferramentas recomendadas:
 
