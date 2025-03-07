@@ -47,7 +47,13 @@ def get_orders():
 
             cursor = conn.cursor()
 
-            cursor.execute("""SELECT * FROM public.venda""")
+            cursor.execute("""SELECT 
+                                id_venda, 
+                                id_funcionario, 
+                                id_categoria, 
+                                data_venda, 
+                                venda 
+                              FROM public.venda""")
 
             tuples_list = cursor.fetchall()
 
