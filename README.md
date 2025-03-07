@@ -47,5 +47,5 @@ Para testar o seu código, você pode executá-lo na interface web do airflow ac
 Outra forma é, através do terminal, utilizar os comandos:
 
 - docker exec -it desafiobix-desafiobix-airflow-1 bash (Para acessar o terminal interno do airflow no docker)
-- airflow dags test etl (Para rodar um teste no fluxo principal acompanhando os logs das atividades)
+- airflow dags test nome_da_sua_dag (Para rodar um teste no fluxo principal acompanhando os logs das atividades)
 
